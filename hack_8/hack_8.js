@@ -12,8 +12,12 @@ let foo = {
     name:"foo",
     role:"admin"
 };
+
 let result = [];
 
+for (let k in foo) {
+    result.push(Array(k,foo[k]))
+}
 
 //export result
 module.exports = result; 

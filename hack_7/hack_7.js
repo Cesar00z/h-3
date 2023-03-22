@@ -12,6 +12,7 @@ let foo = {
 };
 let result;
 
+result = foo.skills.map(skill => skill)
 
 //export result
-module.exports = result; 
+module.exports = result;  

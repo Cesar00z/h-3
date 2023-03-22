@@ -13,7 +13,7 @@ let result = {
     name:"foo",
 };
 let role = "admin";
+result.role = role;
 
- 
 //export result
 module.exports = result; 

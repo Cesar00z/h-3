@@ -13,6 +13,7 @@ let result = {
     role:"admin"
 };
 
+delete result.role
  
 //export result
 module.exports = result; 

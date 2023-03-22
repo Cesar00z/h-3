@@ -23,6 +23,14 @@ let bar = {
 }
 let result;
 
+result = unirObj(foo, bar);
+
+function unirObj(obj1, obj2) {
+    return {
+        ...obj1,
+        ...obj2,
+    }
+}
 
 //export result
 module.exports = result; 
